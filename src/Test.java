@@ -13,7 +13,7 @@ public class Test {
 	
 	public static void myfeelings(){
 		
-		String currentMood = "Really Happy!";
+		String currentMood = "Really Happy!!!";
 		
 		System.out.println(briansMood + " " + currentMood);
 		

@@ -11,16 +11,22 @@ public class printName {
 		 */
 
 		//my idea
-		System.out.printf("Hello" + "%n" + "Galina Eccles" + "%n");
+		//System.out.printf("Hello" + "%n" + "Galina Eccles" + "%n");
 		
 		//solution offered by course: I prefer this, cleaner and less to write
-		System.out.println("\nHello\nGalina Eccles!");
+		//System.out.println("\nHello\nGalina Eccles!");
 		
 		//Lets get fancy and have some fun with this
-		System.out.println("\n \nEnter your Name and press the Enter Key ");
+		System.out.println("\n \nWho are you? ");
 		Scanner input = new Scanner(System.in);
-		String name = input.nextLine();
-		System.out.println("Hello \n" + name);
+		
+		try{
+			String name = input.nextLine();
+			System.out.println("Hello " + name + ", stop man spreading");
+		}finally{
+			//close the scanner
+			input.close();
+		}
 	}
 
 }

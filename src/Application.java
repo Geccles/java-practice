@@ -14,10 +14,6 @@ public class Application {
 		
 		byte myByte = 127; // max it can hold
 		
-		System.out.println(myNumber + "\n" + myShort + "\n" + myLong + "\n" + myDouble + "\n" + myFloat + "\n" + myChar + "\n" + myBool + "\n" + myByte);
-
-		String text = "some text";
-		
-		
+		System.out.println(myNumber + "\n" + myShort + "\n" + myLong + "\n" + myDouble + "\n" + myFloat + "\n" + myChar + "\n" + myBool + "\n" + myByte);		
 	}
 }
